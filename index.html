@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Portfolio | ธาราวดี & ฉัตรินทร์</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Prompt', sans-serif;
+    background: #fff4f6;
+    color: #59313e;
+    line-height: 1.8;
+}
+
+header {
+    background: linear-gradient(135deg, #a9274d, #e66b91);
+    color: white;
+    text-align: center;
+    padding: 55px 20px;
+}
+
+header h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 8px;
+}
+
+nav {
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+nav a {
+    color: #a9274d;
+    text-decoration: none;
+    margin: 0 13px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #e66b91;
+}
+
+.container {
+    width: 90%;
+    max-width: 1050px;
+    margin: auto;
+}
+
+.intro {
+    text-align: center;
+    padding: 45px 15px 20px;
+}
+
+.intro h2 {
+    color: #a9274d;
+    font-size: 27px;
+}
+
+.people {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin: 30px 0 55px;
+}
+
+.person-card {
+    background: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #a9274d15;
+    border: 1px solid #f5c4d1;
+}
+
+.profile-photo {
+    width: 170px;
+    height: 215px;
+    margin: 0 auto 18px;
+    border: 6px solid #f5b6c9;
+    border-radius: 90px 90px 20px 20px;
+    overflow: hidden;
+    box-shadow: 0 7px 20px #d94f7840;
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.person-card h3 {
+    color: #a9274d;
+    font-size: 21px;
+}
+
+.person-card p {
+    color: #855d6b;
+    margin: 5px 0 15px;
+}
+
+.view-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #a9274d, #e66b91);
+    color: white;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 30px;
+}
+
+section {
+    background: white;
+    padding: 35px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #a9274d10;
+}
+
+.section-title {
+    color: #a9274d;
+    font-size: 25px;
+    border-bottom: 2px solid #f5b6c9;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-heading {
+    text-align: center;
+    color: #a9274d;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin: 9px 0;
+}
+
+.info strong {
+    color: #a9274d;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+.goal {
+    background: #fff0f4;
+    border-left: 5px solid #d94f78;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    color: #a9274d;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer {
+    background: #a9274d;
+    color: white;
+    text-align: center;
+    padding: 25px 10px;
+    margin-top: 50px;
+}
+
+@media (max-width: 650px) {
+    header h1 {
+        font-size: 27px;
+    }
+
+    .people {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 13px;
+    }
+
+    section {
+        padding: 22px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header id="home">
+    <h1>OUR PORTFOLIO</h1>
+    <p>แฟ้มสะสมผลงาน | สองความฝัน สองเส้นทางสู่อนาคต</p>
+</header>
+
+<nav>
+    <a href="#home">หน้าแรก</a>
+    <a href="#person1">ธาราวดี</a>
+    <a href="#person2">ฉัตรินทร์</a>
+</nav>
+
+<div class="container">
+
+    <div class="intro">
+        <h2>WELCOME TO OUR PORTFOLIO</h2>
+        <p>ยินดีต้อนรับสู่เว็บไซต์รวบรวมประวัติ ความสามารถ และความภาคภูมิใจของเรา</p>
+    </div>
+
+    <div class="people">
+
+        <div class="person-card">
+            <div class="profile-photo">
+                <img src="tarawadee.jpg" alt="ธาราวดี ช่างพูด">
+            </div>
+            <h3>นางสาวธาราวดี ช่างพูด</h3>
+            <p>ความฝัน : ครูภาษาไทย</p>
+            <a href="#person1" class="view-btn">ดูประวัติ</a>
+        </div>
+
+        <div class="person-card">
+            <div class="profile-photo">
+                <img src="chatrin.jpg" alt="ฉัตรินทร์ จำนงจิต">
+            </div>
+            <h3>นางสาวฉัตรินทร์ จำนงจิต</h3>
+            <p>ความฝัน : ไกด์นำเที่ยว</p>
+            <a href="#person2" class="view-btn">ดูประวัติ</a>
+        </div>
+
+    </div>
+
+    <!-- PERSON 1 -->
+
+    <section id="person1">
+        <h2 class="profile-heading">PROFILE 01</h2>
+
+        <div class="info">
+            <h3 class="section-title">ประวัติส่วนตัว</h3>
+            <p><strong>ชื่อ-นามสกุล :</strong> นางสาวธาราวดี ช่างพูด</p>
+            <p><strong>ระดับการศึกษา :</strong> มัธยมศึกษาปีที่ 6</p>
+            <p><strong>สถานศึกษา :</strong> โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์รัชมังคลาภิเษก</p>
+        </div>
+
+        <h3 class="section-title">ประวัติการศึกษาต่อ</h3>
+        <div class="info">
+            <p><strong>มหาวิทยาลัย :</strong> มหาวิทยาลัยราชภัฏนครศรีธรรมราช</p>
+            <p><strong>คณะ :</strong> ครุศาสตร์</p>
+            <p><strong>สาขา :</strong> ภาษาไทย</p>
+            <p><strong>อาชีพในฝัน :</strong> ครูภาษาไทย</p>
+        </div>
+
+        <h3 class="section-title">ความสามารถพิเศษ</h3>
+        <ul>
+            <li>มีความสามารถในการสวดโอ้เอ้วิหารราย</li>
+            <li>มีทักษะในการเขียนเรียงความ</li>
+            <li>มีทักษะในการเขียนคัดลายมือ</li>
+        </ul>
+
+        <h3 class="section-title">กิจกรรมที่เข้าร่วม</h3>
+        <ul>
+            <li>เข้าร่วมกิจกรรมการทำพานไหว้ครู</li>
+            <li>เข้าร่วมการแข่งขันมหกรรมวิชาการ กลุ่มสาระการเรียนรู้สังคมศึกษา</li>
+        </ul>
+
+        <h3 class="section-title">เป้าหมายในอนาคต</h3>
+        <div class="goal">
+            ดิฉันมีความใฝ่ฝันที่จะเป็นครูภาษาไทย เพราะมีความรักและความสนใจในภาษาไทย ต้องการถ่ายทอดความรู้ให้แก่นักเรียน และปลูกฝังให้เยาวชนเห็นคุณค่าของภาษาไทย รวมถึงสืบสานเอกลักษณ์และวัฒนธรรมทางภาษาให้คงอยู่ต่อไป ดิฉันจะตั้งใจศึกษาและพัฒนาตนเองเพื่อก้าวไปสู่การเป็นครูภาษาไทยที่ดีในอนาคต
+        </div>
+
+        <a href="#home" class="back">↑ กลับหน้าแรก</a>
+    </section>
+
+    <!-- PERSON 2 -->
+
+    <section id="person2">
+        <h2 class="profile-heading">PROFILE 02</h2>
+
+        <div class="info">
+            <h3 class="section-title">ประวัติส่วนตัว</h3>
+            <p><strong>ชื่อ-นามสกุล :</strong> นางสาวฉัตรินทร์ จำนงจิต</p>
+            <p><strong>ระดับการศึกษา :</strong> มัธยมศึกษาปีที่ 6</p>
+            <p><strong>สถานศึกษา :</strong> โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์รัชมังคลาภิเษก</p>
+        </div>
+
+        <h3 class="section-title">ประวัติการศึกษาต่อ</h3>
+        <div class="info">
+            <p><strong>มหาวิทยาลัย :</strong> มหาวิทยาลัยราชภัฏสุราษฎร์ธานี</p>
+            <p><strong>คณะ :</strong> วิทยาลัยนานาชาติการท่องเที่ยว</p>
+            <p><strong>สาขา :</strong> การจัดการการท่องเที่ยวและบริการ</p>
+            <p><strong>อาชีพในฝัน :</strong> ไกด์นำเที่ยว</p>
+        </div>
+
+        <h3 class="section-title">ทักษะและความสามารถ</h3>
+        <ul>
+            <li>มีความเป็นผู้นำและความรับผิดชอบ</li>
+            <li>มีความกล้าแสดงออกและความมั่นใจ</li>
+            <li>มีทักษะในการทำงานเป็นทีม</li>
+        </ul>
+
+        <h3 class="section-title">กิจกรรมที่เข้าร่วม</h3>
+        <ul>
+            <li>เข้าร่วมการแข่งขันมหกรรมวิชาการ กลุ่มสาระการเรียนรู้สังคมศึกษา</li>
+            <li>ปฏิบัติหน้าที่เป็นสตาฟกองเชียร์ในกิจกรรมกีฬาสีของโรงเรียน</li>
+        </ul>
+
+        <h3 class="section-title">เป้าหมายในอนาคต</h3>
+        <div class="goal">
+            ดิฉันมีความใฝ่ฝันที่จะเป็นไกด์นำเที่ยว เพราะชื่นชอบการพบปะผู้คน การสื่อสาร และการทำงานร่วมกับผู้อื่น ดิฉันต้องการนำความรู้ด้านการท่องเที่ยวและการบริการมาใช้ในการแนะนำสถานที่ท่องเที่ยว ถ่ายทอดเรื่องราวและเอกลักษณ์ของท้องถิ่นให้แก่นักท่องเที่ยว พร้อมทั้งพัฒนาทักษะด้านภาษาและการบริการ เพื่อก้าวไปสู่การเป็นไกด์นำเที่ยวที่มีคุณภาพในอนาคต
+        </div>
+
+        <a href="#home" class="back">↑ กลับหน้าแรก</a>
+    </section>
+
+</div>
+
+<footer>
+    <p>OUR PORTFOLIO</p>
+    <p>ธาราวดี ช่างพูด & ฉัตรินทร์ จำนงจิต</p>
+    <p>© 2026 All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
