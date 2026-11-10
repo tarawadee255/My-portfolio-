@@ -1,0 +1,38 @@
+body {
+  background: #fff0f5;
+  color: #704858;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #d66d96;
+  font-size: 30px;
+}
+
+h2 {
+  color: #e58aaa;
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 3px 10px #f2c6d7;
+}
+
+button {
+  background: #e58aaa;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 20px;
+}
