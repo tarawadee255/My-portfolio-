@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #fff5f8;
+  color: #55434b;
+}
+
+header {
+  background: #f3b6cc;
+  color: white;
+  text-align: center;
+  padding: 35px 15px;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+nav {
+  background: white;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #d66d96;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+section {
+  background: white;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 18px;
+  max-width: 850px;
+  width: 90%;
+  box-shadow: 0 3px 12px #f0dce4;
+}
+
+h2 {
+  color: #d66d96;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #f3b6cc;
+}
+
+footer {
+  background: #f3b6cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>MY PORTFOLIO</h1>
+  <p>แฟ้มสะสมผลงานของฉัน</p>
+</header>
+
+<nav>
+  <a href="#about">ประวัติส่วนตัว</a>
+  <a href="#education">การศึกษา</a>
+  <a href="#activities">กิจกรรม</a>
+  <a href="#dream">ความฝัน</a>
+</nav>
+
+<section class="profile" id="about">
+  <h2>ประวัติส่วนตัว</h2>
+  <img src="profile.jpg" alt="รูปโปรไฟล์">
+  <p><b>ชื่อ:</b> นางสาวธาราวดี ช่างพูด</p>
+  <p><b>ชื่อเล่น:</b> ลันตา</p>
+  <p><b>ระดับชั้น:</b> ม.6/3</p>
+  <p><b>แผนการเรียน:</b> ศิลป์-ภาษาจีน</p>
+  <p><b>งานอดิเรก:</b> ฟังเพลง อ่านหนังสือ และเรียนรู้สิ่งใหม่</p>
+</section>
+
+<section id="education">
+  <h2>ประวัติการศึกษา</h2>
+  <p>โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์ราชมังคลาภิเษก</p>
+  <p>ระดับชั้นมัธยมศึกษาตอนปลาย</p>
+</section>
+
+<section id="activities">
+  <h2>กิจกรรมและผลงาน</h2>
+  <p>• กิจกรรมวันไหว้ครู</p>
+  <p>• กิจกรรมกีฬาสีของโรงเรียน</p>
+  <p>• กิจกรรมฝึกประสบการณ์วิชาชีพครู</p>
+  <p>• กิจกรรมและผลงานต่าง ๆ</p>
+</section>
+
+<section id="dream">
+  <h2>ความฝันในอนาคต</h2>
+  <p>
+    ฉันมีความฝันอยากเป็นคุณครูภาษาไทย
+    เพราะอยากถ่ายทอดความรู้และประสบการณ์
+    ให้กับนักเรียน อยากเป็นครูที่เข้าใจเด็ก
+    และสร้างแรงบันดาลใจในการเรียนรู้
+  </p>
+</section>
+
+<footer>
+  <p>MY PORTFOLIO © 2026</p>
+  <p>ขอบคุณที่เข้ามาเยี่ยมชมเว็บไซต์ของฉัน ♡</p>
+</footer>
+
+</body>
+</html>
